@@ -10,8 +10,11 @@ body{
 .titulo {
     background-color: #a0c532;
     color: #FFFADC;
-    padding: 35px;
-    font-size: 45px
+    padding: 15px 20px;
+    font-size: 32px;
+    position: relative;
+    text-align: left;
+    width: 100%;
 }
 .title{
     margin: auto;
@@ -41,6 +44,29 @@ button:hover{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.botao-paginas {
+    position: absolute;
+    bottom: 10px;      /* canto superior */
+    right: 20px;    /* canto direito */
+    display: flex;  /* alinhar botões lado a lado */
+    gap: 10px;      /* espaço entre os botões */
+}
+
+.botao-paginas button {
+    background-color: transparent;
+    color: white;
+    padding: 18px 22px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao-paginas button:hover {
+    background-color: white;
+    color: #a0c532;
 }
 
 footer {
