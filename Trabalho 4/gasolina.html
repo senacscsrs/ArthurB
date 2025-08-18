@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let nome=prompt("digite seu nome")
+    let distancia=parseFloat(prompt("Digite a distância"))
+    let velocidade=parseFloat(prompt("Digite a velocidade média"))
+    let consumo=parseFloat(prompt("Digite quantos litros por km são gastos"))
+    let preço=parseFloat(prompt("Digite o preço da gasolina"))
+
+    let tempo=distancia/velocidade
+    let gastos=distancia/consumo
+    let valor=gastos*preço
+
+    alert("O tempo gasto vai ser "+tempo+"hora,vão ser usados "+gastos+" litros de gasolina, o total vaidar "+valor+" reais.")
+</script>
+</body>
+</html>
