@@ -45,6 +45,12 @@ button:hover{
     justify-content: center;
     gap: 20px;
 }
+.botoes2{
+    /*centralizar*/
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 .botao-paginas {
     position: absolute;
     bottom: 10px;      /* canto superior */
