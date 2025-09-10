@@ -6,6 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#FFFADC;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 80px;
 }
 .titulo {
     background-color: #a0c532;
@@ -22,7 +25,6 @@ body{
     color: #a0c532;
     font-size: 35px
 }
-
 button {
     background-color: #FFFADC;
     color: #a0c532;
@@ -31,34 +33,28 @@ button {
     border-radius: 12px;
     font-size: 25px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s esse;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
 }
-
 button:hover{
     background-color: #a0c532;
     color: #FFFADC;
 }
-
-.botoes{
-    /*centralizar*/
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.botoes2{
-    /*centralizar*/
-    display: flex;
-    justify-content: center;
-    gap: 17px;
+.botoes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 10px;
 }
 .botao-paginas {
     position: absolute;
     bottom: 10px;      
-    right: 20px;    
+    right: 20px;      
     display: flex;  
-    gap: 10px;      
+    gap: 10px;        
 }
-
 .botao-paginas button {
     background-color: transparent;
     color: white;
@@ -68,18 +64,16 @@ button:hover{
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .botao-paginas button:hover {
     color: #778b39;
 }
-
 footer {
-  background-color: #a0c532;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: 25px
+    background-color: #a0c532;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
 }
