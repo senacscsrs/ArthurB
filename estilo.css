@@ -49,14 +49,14 @@ button:hover{
     /*centralizar*/
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 17px;
 }
 .botao-paginas {
     position: absolute;
-    bottom: 10px;      /* canto superior */
-    right: 20px;    /* canto direito */
-    display: flex;  /* alinhar botões lado a lado */
-    gap: 10px;      /* espaço entre os botões */
+    bottom: 10px;      
+    right: 20px;    
+    display: flex;  
+    gap: 10px;      
 }
 
 .botao-paginas button {
