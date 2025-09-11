@@ -28,10 +28,10 @@ body{
 button {
     background-color: #FFFADC;
     color: #a0c532;
-    padding: 30px 36px;
+    padding: 34px 40px;
     border: 2px solid #a0c532;
     border-radius: 12px;
-    font-size: 25px;
+    font-size: 23px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     width: 100%;
