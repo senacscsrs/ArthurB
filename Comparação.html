@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+let produtos=prompt("Escolha um desses produtos: Leite e Pão.")
+let produto;
+let marca1;
+let marca2;
+if(produtos==="Leite"){
+    marca1= "Leite Italac Integral, 120 kcal (por 200ml)";
+    marca2= "Leite Piracanjuba Integral, 126 kcal (por 200ml)";
+}
+if(produtos==="Pão"){
+    marca1= "Pão Pullman Tradicional, 67 kcal (por fatia 25g)";
+    marca2= "Pão Wickbold Integral, 60 kcal (por fatia 25g)";
+}
+
+if (marca1 && marca2) {
+    alert("Comparação de " + produtos + ":\n" + marca1 + "\n" + marca2);
+} else {
+    alert("Produto não reconhecido. Escolha entre 'Leite' ou 'Pão'.");
+}
+</script>
+</body>
+</html>
